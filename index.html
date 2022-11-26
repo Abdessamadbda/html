@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" href="res/images/favicon.ico">
+ <title>My Dashboard</title>
+ </head>
+ <body>
+    <header>
+    </header>
+    <section>
+        <h2>Welcome to your dashboard!</h2>
+        <div>
+            <img src="res/images/me.png" width="128" height="128" alt="My picture">
+        </div>
+        <div>
+        <ul>
+        <li>Your name</li>
+        <li> A date following this format dd/mm/yyyy</li>
+        <li> Software Engineering </li>
+        </ul>
+        </div>
+        <div>
+        <strong>2.65</strong>
+        </div>
+    </section>
+    <section>
+        <h1>Courses</h1>
+        <table>
+        <thead>
+        <tr>
+        <th>#</th>
+        <th>Course Title</th>
+        <th>Semester</th>
+        <th>Grade</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td><a href="http://m.inpt.ac.ma/course/view.php?id=1719" target="_blank"> Agile software development  </a></td>
+        <td>fall</td>
+        <td>82</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td> <a href="http://m.inpt.ac.ma/course/view.php?id=1721" target="_blank"> Systems modelling  </a></td>
+        <td>fall</td>
+        <td>85</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td><a href="http://m.inpt.ac.ma/course/view.php?id=1722" target="_blank"> Requirements Engineering  </a></td>
+        <td>fall</td>
+        <td>99</td>
+    </tr>
+    <tr>
+    <td>4</td>
+    <td> <a href="http://m.inpt.ac.ma/course/view.php?id=1723" target="_blank"> Human Computer Interaction </a> </td>
+    <td>fall</td>
+    <td>65</td>
+    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>5</td>
+            <td><a href="http://m.inpt.ac.ma/course/view.php?id=1724" target="_blank"> Network </a></td>
+            <td>fall</td>
+            <td>95</td>
+        </tr>
+    </tfoot>
+    </section>   
+    <footer>
+        <ul>
+            <li>
+               <a href="https://www.inpt.ac.ma/" target="_blank">moodle</a>
+            </li>  
+            <li>
+               <a href="https://m.inpt.ac.ma/" target="_blank">Courses</a>
+            </li>
+        </ul>
+    </footer>
+</table>
+<h1>Add course</h1>
+<form>
+    <label for="Ctitle">Course Title:</label><br>
+    <input type="text" id="Ctitle" name="Ctitle"><br>
+</form>
+<label for "Semester">Semester:</label>
+<select name="Semester" id="Semester">
+   <option value="fall">fall</option>
+   <option value="spring">spring</option>
+</select>    
+<p>Attendance</p>
+<form>
+    <input type="radio" value="Virtual attendance"
+    <label for="Virtual attendance">Virtual attendance</label><br>
+    <input type="radio" value="Physique attendance"
+    <label for="Physical attendance">Virtual attendance</label><br>
+    <input type="Submit" value="Submit">
+</form>       
+ </body>
+</html>
 
